@@ -1,4 +1,4 @@
-##############################################################
+e##############################################################
 Como ejecutar:
 
 1.
@@ -43,5 +43,5 @@ curl -i -H "Content-Type: application/json" -X POST -d '{"nameid": "Maquina1", "
 
 10. Mofificar numero de cpus
 curl -i -H "Content-Type: application/json" -X POST -d '{"nameid": "Maquina1", "numCpus":"1"}' http://localhost:5000/modifynumcpus
-11. Mofificar cantidad de cpus (executioncap)
+11. Mofificar cantidad de cpus
 curl -i -H "Content-Type: application/json" -X POST -d '{"nameid": "Maquina1", "cantCpus":"56"}' http://localhost:5000/modifycantcpus
